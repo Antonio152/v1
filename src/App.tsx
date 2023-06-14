@@ -43,8 +43,7 @@ const App = memo(() => {
             <Navbar browserLanguage={cLanguage} />
             {/* Right column - main content */}
             <main id="content" className="lg:w-1/2 ">
-              {/*main=   pt-24 lg:w-1/2 lg:py-24*/}
-              {/*section=  mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 */}
+              {/*main*/}
               <section
                 id="about"
                 className="mb-16 scroll-mt-16 md:mb-24 lg:mb-8 lg:scroll-mt-24 pt-24 lg:pb-24"
@@ -61,7 +60,6 @@ const App = memo(() => {
                   <p className="mb-4">{aboutFour[cLanguage]}</p>
                 </div>
               </section>
-              {/* Experience = mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 */}
               <section
                 id="experience"
                 className="mb-16 pt-24 scroll-mt-16 md:mb-24 lg:mb-8 lg:scroll-mt-24 lg:pb-24 max-lg:pt-0 max-lg:w-full"
