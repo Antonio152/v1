@@ -1,0 +1,37 @@
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer utilities {
+  ul,ol,menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    @apply selection:bg-teal-300 selection:text-teal-900
+  }
+}
+
+/* Personal */
+.fName{
+  font-size: 3.2rem;
+}
+.fIcons{
+  font-size: 1.65rem;
+}
+.fArrow{
+  font-size: 14px;
+}
+.t1{
+  top: 1px;
+}
+/* Active menu item */
+.active > div > #lineM{
+ @apply transition-all w-16 bg-slate-200
+}
+.active > div > #textM{
+  @apply text-slate-200
+}
