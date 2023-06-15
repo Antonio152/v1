@@ -6,12 +6,15 @@ export interface IProjects {
   urlProject: string;
   technologies: string[];
   imagePath: string;
-  nameIcon?: string;
-  typeApp?: string;
+  nameIcon: string;
+  typeApp: string;
   cLanguage?: string; //Language of the browser
 }
-
-export interface IProjectsList extends IProjects {
+export type IProjectsPageList = Omit<
+  IProjects,
+  "descriptionES" | "descriptionEN" | "urlProject" | "imagePath" | "nameIcon"
+>;
+export interface IProjectsList extends IProjectsPageList {
   year: string;
   madeAt: string;
   urlsProject: string[]; // Where is deployed and the code (both are optional)
