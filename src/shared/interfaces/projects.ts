@@ -12,7 +12,12 @@ export interface IProjects {
 }
 export type IProjectsPageList = Omit<
   IProjects,
-  "descriptionES" | "descriptionEN" | "urlProject" | "imagePath" | "nameIcon"
+  | "descriptionES"
+  | "descriptionEN"
+  | "urlProject"
+  | "imagePath"
+  | "nameIcon"
+  | "typeApp"
 >;
 export interface IProjectsList extends IProjectsPageList {
   year: string;

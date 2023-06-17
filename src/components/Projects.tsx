@@ -41,7 +41,6 @@ export const Projects = ({
             {descriptionLang}
           </p>
           <span className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300">
-            {/* "mr-1 h-3 w-3" */}
             <i className={`fa-solid ${nameIcon} mr-1 h-4 w-3`}></i>
             <span className="ml-1">{typeApp}</span>
           </span>

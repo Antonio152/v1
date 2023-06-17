@@ -29,7 +29,10 @@ export const AppRouter = () => {
             {/* Home */}
             <Route path="/" element={<MainPage cLanguage={cLanguage} />} />
             {/* Projects*/}
-            <Route path="/projects" element={<ProjectsPage />} />
+            <Route
+              path="/projects"
+              element={<ProjectsPage cLanguage={cLanguage} />}
+            />
             {/* No route found */}
             <Route path="/*" element={<Navigate to="/" />} />
           </Routes>

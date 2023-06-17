@@ -12,7 +12,6 @@ export const listAllProjects: IProjectsList[] = [
       "TailwindCSS",
       "Typescript",
     ],
-    typeApp: "Desktop Application",
     year: "2023",
     madeAt: "Personal",
     urlsProject: [
@@ -24,7 +23,6 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Calculadora de IOS",
     nameEN: "IOS Calculator",
     technologies: ["React", "React-Native", "Typescript", "eslint"],
-    typeApp: "Mobile Application",
     year: "2023",
     madeAt: "Personal",
     urlsProject: ["https://github.com/Antonio152/ios-calculator-rn", "/build"],
@@ -41,19 +39,17 @@ export const listAllProjects: IProjectsList[] = [
       "Firebase",
       "Material-UI",
     ],
-    typeApp: "Web Application",
     year: "2023",
     madeAt: "Personal",
     urlsProject: [
-      "https://github.com/Antonio152/journal-app",
       "https://antonio152.github.io/journal-app/",
+      "https://github.com/Antonio152/journal-app",
     ],
   },
   {
     nameES: "Intranet Aviso Oportuno",
     nameEN: "Intranet Classifieds",
     technologies: ["Sharepoint 365", "React", "SCSS", "Typescript", "Axios"],
-    typeApp: "Web Part Application",
     year: "2023",
     madeAt: "IMPI",
     urlsProject: [""],
@@ -62,7 +58,6 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Gaceta Búsqueda de Patentes",
     nameEN: "Patent Search Page",
     technologies: ["React", "Vite", "Typescript", "Axios", "SCSS"],
-    typeApp: "Web Application",
     year: "2023",
     madeAt: "IMPI",
     urlsProject: [""],
@@ -71,7 +66,6 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Aplicación de calendario",
     nameEN: "Calendar Application",
     technologies: ["React", "Typescript", "Vite", "eslint", "Redux", "Axios"],
-    typeApp: "Web Application",
     year: "2023",
     madeAt: "Personal",
     urlsProject: ["https://github.com/Antonio152/calendar-app", "/deploy"],
@@ -80,7 +74,6 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Sistema de Registro de Instalaciones",
     nameEN: "Facility Registration System",
     technologies: ["NextJS", "Typescript", "React", "Context", "Axios"],
-    typeApp: "Web Application",
     year: "2022",
     madeAt: "Easytrack",
     urlsProject: [""],
@@ -97,7 +90,6 @@ export const listAllProjects: IProjectsList[] = [
       "AWS",
       "Route53",
     ],
-    typeApp: "Web Application",
     year: "2022",
     madeAt: "Easytrack",
     urlsProject: ["https://pagos.easytrack.mx/"],
@@ -107,18 +99,14 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Página informativa sobre monitoreo",
     nameEN: "Informative Page About Monitoring",
     technologies: ["NextJS", "Typescript", "React", "CSS"],
-    typeApp: "Web Application",
     year: "2022",
     madeAt: "Easytrack",
-    urlsProject: [
-      "https://easytrack.mx/central_de_monitoreo_activo_del_transporte",
-    ],
+    urlsProject: ["https://cutt.ly/awrCZGZf"],
   },
   {
     nameES: "Rutabus",
     nameEN: "Rutabus",
     technologies: ["NextJS", "Typescript", "React", "CSS"],
-    typeApp: "Web Application",
     year: "2022",
     madeAt: "Easytrack",
     urlsProject: ["https://easytrack.mx/rutabus"],
@@ -127,7 +115,6 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Sección de Videos",
     nameEN: "Videos Section",
     technologies: ["React", "NextJS", "CSS", "Javascript", "Axios"],
-    typeApp: "Web Application",
     year: "2022",
     madeAt: "Easytrack",
     urlsProject: ["https://easytrack.mx/videos/"],
@@ -136,7 +123,6 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Sección de Artículos",
     nameEN: "Articles Section",
     technologies: ["React", "NextJS", "MongoDB", "AWS", "S3", "EC2", "Strapi"],
-    typeApp: "Web Application",
     year: "2022",
     madeAt: "Easytrack",
     urlsProject: ["https://easytrack.mx/articulos/"],
@@ -145,19 +131,17 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Aplicación de Gifs",
     nameEN: "Gifts Application",
     technologies: ["React", "Typescript", "Vite", "Jest", "Axios"],
-    typeApp: "Web Application",
     year: "2022",
     madeAt: "Personal",
     urlsProject: [
-      "https://github.com/Antonio152/react-gift-app",
       "https://antonio152.github.io/react-gift-app/",
+      "https://github.com/Antonio152/react-gift-app",
     ],
   },
   {
     nameES: "Migración de Página web a NextJS",
     nameEN: "Migration of Website to NextJS",
     technologies: ["NextJS", "Javascript", "React", "CSS"],
-    typeApp: "Web Application",
     year: "2021",
     madeAt: "Easytrack",
     urlsProject: ["https://easytrack.mx/"],
@@ -166,19 +150,17 @@ export const listAllProjects: IProjectsList[] = [
     nameES: "Template Página Institucional",
     nameEN: "Institutional Page Template",
     technologies: ["PHP", "HTML", "CSS", "JQuery", "Javascript"],
-    typeApp: "Web Application",
     year: "2021",
     madeAt: "Universidad Politécnica de Pachuca",
     urlsProject: [
-      "https://github.com/Antonio152/template_institutional_page",
       "https://www.upp.edu.mx/serviciosescolares/",
+      "https://github.com/Antonio152/template_institutional_page",
     ],
   },
   {
     nameES: "Herramientas de Hacking para Sitios CMS",
     nameEN: "Hacking Tools for CMS Websites",
     technologies: ["Python"],
-    typeApp: "CLI Application",
     year: "2021",
     madeAt: "Personal",
     urlsProject: ["https://github.com/Antonio152/Hacking_CMS"],
@@ -195,7 +177,6 @@ export const listAllProjects: IProjectsList[] = [
       "Jest",
       "Mocha",
     ],
-    typeApp: "CLI Application",
     year: "2021",
     madeAt: "Personal",
     urlsProject: ["https://github.com/Antonio152/Hacking_CMS"],
@@ -212,9 +193,32 @@ export const listAllProjects: IProjectsList[] = [
       "Express",
       "Heroku",
     ],
-    typeApp: "Web Application",
     year: "2020",
     madeAt: "Universidad Politécnica de Pachuca",
     urlsProject: [""],
   },
 ];
+
+export const titleProjects = {
+  es: "Todos mis proyectos",
+  en: "All Projects",
+};
+
+export const year = {
+  es: "Año",
+  en: "Year",
+};
+export const project = {
+  es: "Proyecto",
+  en: "Project",
+};
+
+export const madeAt = {
+  es: "Creado en",
+  en: "Made at",
+};
+
+export const built = {
+  es: "Construido con",
+  en: "Built with",
+};
