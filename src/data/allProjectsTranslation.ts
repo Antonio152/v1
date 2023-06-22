@@ -15,8 +15,7 @@ export const listAllProjects: IProjectsList[] = [
     year: "2023",
     madeAt: "Personal",
     urlsProject: [
-      "https://github.com/Antonio152/tauri-react-desktop-app",
-      "/releases",
+      "https://github.com/Antonio152/tauri-react-desktop-app#readme",
     ],
   },
   {
@@ -25,7 +24,7 @@ export const listAllProjects: IProjectsList[] = [
     technologies: ["React", "React-Native", "Typescript", "eslint"],
     year: "2023",
     madeAt: "Personal",
-    urlsProject: ["https://github.com/Antonio152/ios-calculator-rn", "/build"],
+    urlsProject: ["https://github.com/Antonio152/ios-calculator-rn#readme"],
   },
   {
     nameES: "Aplicación de actividades",
@@ -43,7 +42,7 @@ export const listAllProjects: IProjectsList[] = [
     madeAt: "Personal",
     urlsProject: [
       "https://antonio152.github.io/journal-app/",
-      "https://github.com/Antonio152/journal-app",
+      "https://github.com/Antonio152/journal-app#readme",
     ],
   },
   {
@@ -68,7 +67,10 @@ export const listAllProjects: IProjectsList[] = [
     technologies: ["React", "Typescript", "Vite", "eslint", "Redux", "Axios"],
     year: "2023",
     madeAt: "Personal",
-    urlsProject: ["https://github.com/Antonio152/calendar-app", "/deploy"],
+    urlsProject: [
+      "https://antonio152.github.io/calendar-app/",
+      "https://github.com/Antonio152/calendar-app#readme",
+    ],
   },
   {
     nameES: "Sistema de Registro de Instalaciones",
@@ -135,7 +137,7 @@ export const listAllProjects: IProjectsList[] = [
     madeAt: "Personal",
     urlsProject: [
       "https://antonio152.github.io/react-gift-app/",
-      "https://github.com/Antonio152/react-gift-app",
+      "https://github.com/Antonio152/react-gift-app#readme",
     ],
   },
   {

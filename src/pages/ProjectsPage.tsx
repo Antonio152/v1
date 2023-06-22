@@ -70,4 +70,3 @@ export const ProjectsPage = ({ cLanguage }: IProjectsPage) => {
     </div>
   );
 };
-/* https://easytrack.mx/rutabus */

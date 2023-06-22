@@ -32,7 +32,12 @@ export const Navbar = ({ browserLanguage }: INavbar) => {
         <nav className="nav hidden lg:block" aria-label="In-page jump links">
           <ul className="mt-16 w-max text-slate-400">
             <li>
-              <Link activeClass="active" spy to="about">
+              <Link
+                activeClass="active"
+                className="cursor-pointer"
+                spy
+                to="about"
+              >
                 <div className="group flex items-center py-3 ">
                   <span
                     id="lineM"
@@ -48,7 +53,12 @@ export const Navbar = ({ browserLanguage }: INavbar) => {
               </Link>
             </li>
             <li>
-              <Link activeClass="active" spy to="experience">
+              <Link
+                activeClass="active"
+                className="cursor-pointer"
+                spy
+                to="experience"
+              >
                 <div className="group flex items-center py-3 ">
                   <span
                     id="lineM"
@@ -64,7 +74,12 @@ export const Navbar = ({ browserLanguage }: INavbar) => {
               </Link>
             </li>
             <li>
-              <Link activeClass="active" spy to="projects">
+              <Link
+                activeClass="active"
+                className="cursor-pointer"
+                spy
+                to="projects"
+              >
                 <div className="group flex items-center py-3 ">
                   <span
                     id="lineM"
