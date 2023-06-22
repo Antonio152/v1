@@ -15,7 +15,7 @@ export const Navbar = ({ browserLanguage }: INavbar) => {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div className="max-sm:text-center">
         <img
-          src="/marco.jpg"
+          src="./marco.jpg"
           alt="Marco Antonio"
           className="rounded-full w-32 h-32 object-cover mx-auto hidden max-sm:block mb-5"
         />
