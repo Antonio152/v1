@@ -27,8 +27,8 @@ export const MainPage = memo(({ cLanguage }: IMainPage) => {
   };
   const resumePDF =
     cLanguage === "es"
-      ? "/CV-MARCO_ANTONIO-ESPAÑOL.pdf"
-      : "/CV-MARCO_ANTONIO-ENGLISH.pdf";
+      ? "./CV-MARCO_ANTONIO-ESPAÑOL.pdf"
+      : "./CV-MARCO_ANTONIO-ENGLISH.pdf";
   return (
     <>
       {/* Left column - header */}
