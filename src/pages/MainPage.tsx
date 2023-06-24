@@ -15,6 +15,9 @@ import { Experience } from "../components/Experience";
 import { bestProjects } from "../data/projectsTranslation";
 import { Projects } from "../components/Projects";
 import { useNavigate } from "react-router-dom";
+/* CV */
+import enCV from "/CV-MARCO_ANTONIO-ENGLISH.pdf";
+import esCV from "/CV-MARCO_ANTONIO-ESPAÑOL.pdf";
 
 interface IMainPage {
   cLanguage: LanguageApp;
@@ -25,7 +28,7 @@ export const MainPage = memo(({ cLanguage }: IMainPage) => {
     navigate("/projects", { replace: true });
     window.scrollTo(0, 0);
   };
-
+  const resumePDF = cLanguage === "es" ? esCV : enCV;
   return (
     <>
       {/* Left column - header */}
@@ -71,7 +74,7 @@ export const MainPage = memo(({ cLanguage }: IMainPage) => {
               <a
                 className="inline-flex items-center leading-tight text-slate-200 font-semibold group"
                 aria-label="View Full Résumé"
-                href="/resume.pdf"
+                href={resumePDF}
               >
                 {/* TODO: ADD RESUME IN ENGLISH AND SPANISH */}
                 <span>
